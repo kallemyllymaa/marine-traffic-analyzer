@@ -6,7 +6,6 @@
   "dependencies": {
     "bootstrap": "3",
     "gh-pages": "^1.2.0",
-    "normalize.css": "^8.0.0",
     "react": "^16.4.2",
     "react-bootstrap": "^0.32.3",
     "react-dom": "^16.4.2",

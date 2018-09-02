@@ -7,8 +7,6 @@ import 'bootstrap/dist/css/bootstrap-theme.css';
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
 
-import 'normalize.css/normalize.css';
-
 import './App.css';
 
 import { Grid } from 'react-bootstrap';
@@ -16,6 +14,7 @@ import { Grid } from 'react-bootstrap';
 import Header from './components/Header';
 
 import Intro from './pages/Intro';
+import Ships from './pages/Ships';
 
 class App extends Component {
   render() {
@@ -25,6 +24,7 @@ class App extends Component {
           <Header />
           <Grid>
             <Route exact path="/" component={Intro} />
+            <Route exact path="/ships" component={Ships} />
           </Grid>
         </div>
       </Router>

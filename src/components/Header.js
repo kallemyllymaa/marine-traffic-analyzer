@@ -1,17 +1,20 @@
 import React from 'react';
 
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
+
+import { Link } from 'react-router-dom';
 
 const Header = () => (
   <Navbar collapseOnSelect>
     <Navbar.Header>
       <Navbar.Brand>
-        <a href="#home">React-Bootstrap</a>
+        <Link to="/">MTF</Link>
       </Navbar.Brand>
     </Navbar.Header>
     <Navbar.Collapse>
       <Nav>
-
+        <NavItem componentClass={Link} href="/" to="/">Home</NavItem>
+        <NavItem componentClass={Link} href="ships" to="/ships">Ships</NavItem>
       </Nav>
     </Navbar.Collapse>
   </Navbar>

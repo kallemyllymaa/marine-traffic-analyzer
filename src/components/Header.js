@@ -14,7 +14,7 @@ const Header = () => (
     <Navbar.Collapse>
       <Nav>
         <NavItem componentClass={Link} href="/" to="/">Home</NavItem>
-        <NavItem componentClass={Link} href="ships" to="/ships">Ships</NavItem>
+        <NavItem componentClass={Link} href="/ships" to="/ships">Ships</NavItem>
       </Nav>
     </Navbar.Collapse>
   </Navbar>

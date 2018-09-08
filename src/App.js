@@ -22,7 +22,7 @@ class App extends Component {
       <Router>
         <div>
           <Header />
-          <Grid>
+          <Grid fluid>
             <Route exact path="/" component={Intro} />
             <Route exact path="/ships" component={Ships} />
           </Grid>
